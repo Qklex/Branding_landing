@@ -12,6 +12,16 @@
   margin: 36px 110px 0 110px;
 }
 
+.hr {
+  position: relative;
+  border: none; /* Убираем границу */
+  background-color: #dad9d6; /* Цвет линии */
+  color: #dad9d6; /* Цвет линии для IE6-7 */
+  width: 1680px;
+  height: 2px; /* Толщина линии */
+  top: 400px;
+}
+
 .info img {
   width: 247px;
   height: 48px;
@@ -89,7 +99,7 @@
 .info_name {
   width: 731px;
   height: 433px;
-  padding: 235px 8px 0 110px;
+  padding: 235px 0 0 110px;
 }
 
 .contact_btn {
@@ -98,6 +108,13 @@
   border: 0;
   width: 255px;
   height: 56px;
+  font-family: "Urbanist";
+  font-size: 24px;
+}
+
+.contact_btn:hover {
+  transform: scale(1.05);
+  transition: 1s;
 }
 
 .our_btn {
@@ -107,17 +124,24 @@
   width: 255px;
   height: 56px;
   margin: 57px 0 0 28px;
+  font-family: "Urbanist";
+  font-size: 24px;
+}
+
+.our_btn:hover {
+  transform: scale(1.05);
+  transition: 1s;
 }
 
 .made {
-    position: relative;
+  position: relative;
   display: flex;
   justify-content: flex-end;
-  background: url(Made_in.png); 
+  background: url(Made_in.png);
   width: auto;
   margin-left: 550px;
-  
 }
+
 .made_btn {
   display: flex;
   justify-content: flex-end;
@@ -126,4 +150,753 @@
   margin: 639px 12px 229px 438px;
   background-image: url(logo_btn.png);
   border: 0;
+}
+
+.container_agency {
+  width: auto;
+  height: 1315px;
+}
+
+.name_block h1 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #181a3f;
+  width: 548px;
+  height: 116px;
+}
+
+.name_block button {
+  width: 364px;
+  height: 54px;
+  margin: 45px 110px 0 208px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #181a3f;
+  border: 2px solid #181a3f;
+  background-color: #ffffff;
+}
+
+.name_block button:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.name_block {
+  display: flex;
+}
+
+.card_agency {
+  width: 1268px;
+  height: 835px;
+  margin: 240px 0 0 350px;
+}
+
+.card_line {
+  display: flex;
+  flex-direction: row;
+}
+
+.card_block {
+  margin-top: 196px;
+}
+
+.card {
+  margin: 0 97px 74px 0;
+  width: 342px;
+  height: 283px;
+}
+
+.card img {
+  margin-bottom: 23px;
+  width: 84px;
+  height: 84px;
+}
+
+.card b {
+  color: #ff7549;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  margin: 0;
+  padding: 0;
+}
+
+.card h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  /* identical to box height, or 139% */
+
+  color: #181a3f;
+}
+
+.card p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #555671;
+}
+
+.card_mot img {
+  margin: 32px 0 23px 0;
+  width: 113px;
+  height: 60px;
+}
+
+.card_mot {
+  margin: 0 97px 74px 0;
+  width: 342px;
+  height: 283px;
+}
+
+.card_mot b {
+  color: #ff7549;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  margin: 0;
+  padding: 0;
+}
+
+.card_mot h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  /* identical to box height, or 139% */
+
+  color: #181a3f;
+}
+
+.card_mot p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #555671;
+}
+
+.history {
+  height: 1664px;
+}
+
+.history button {
+  width: 364px;
+  height: 54px;
+  margin: 29px 40px 0 380px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #181a3f;
+  border: 2px solid #181a3f;
+  background-color: #ffffff;
+}
+
+.history h1 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  height: 116px;
+  width: 476px;
+  margin: 5px 0 0 24px;
+}
+
+.history_main {
+  margin: 245px 0 0 300px;
+}
+
+.history_head {
+  display: flex;
+}
+
+.history_info {
+  display: flex;
+  width: 100%;
+  height: 988px;
+  margin: 80px 0 0 24px;
+}
+
+.girl {
+  display: flex;
+  flex-direction: column;
+}
+
+.girl p {
+  width: 418px;
+  height: 151px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 105px 0;
+}
+
+.girl_1 {
+  height: 468px;
+  width: 468px;
+}
+
+.girl_2 {
+  height: 492px;
+  width: 492px;
+}
+
+.frame_1 {
+  height: 988px;
+  width: 260px;
+}
+
+.object_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.object_1 p {
+  width: 418px;
+  height: 151px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 66px 0 0 70px;
+}
+
+.frame_2 {
+  flex-direction: row;
+  height: 236px;
+  width: 354px;
+}
+
+.portfolio {
+  height: 1445px;
+}
+
+.portfolio_head {
+  display: flex;
+  height: 116px;
+  margin: 245px 0 0 110px;
+}
+
+.portfolio_head h1 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  height: 116px;
+  width: 456px;
+}
+
+.portfolio_head button {
+  width: 272px;
+  height: 90px;
+  margin: 45px 110px 0 972px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #181a3f;
+  border: 2px solid #181a3f;
+  background-color: #ffffff;
+}
+
+.portfolio_card {
+  width: 1680px;
+  height: 1024px;
+  margin: 80px 0 0 110px;
+}
+
+.card_1 {
+  display: flex;
+}
+
+.card_1 h3 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  width: 400px;
+  height: 40px;
+  color: #181a3f;
+  margin-top: 78px;
+}
+
+.card_1 b {
+  color: #d9d8d5;
+}
+
+.card_info {
+  margin-left: 500px;
+  width: 100%;
+  height: 254px;
+}
+
+.card_info h2 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 50px;
+  width: 600px;
+  color: #181a3f;
+  margin-top: 64px;
+}
+
+.card_info p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555671;
+  width: 618px;
+}
+
+.card_info_2 {
+  margin-left: 500px;
+  width: 100%;
+  height: 254px;
+}
+
+.card_info_2 h2 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 50px;
+  width: 600px;
+  color: #181a3f;
+  margin-top: 64px;
+}
+
+.card_info_2 p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555671;
+  width: 618px;
+}
+
+.project_today {
+  display: flex;
+  background-color: #f0efec;
+  height: 662px;
+  margin-top: 504px;
+  width: 100%;
+}
+
+.project_today div {
+  margin-left: 110px;
+}
+
+.project_today h1 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  color: #181a3f;
+  width: 452px;
+  height: 116px;
+  margin: 213px 0 68px 0;
+}
+
+.project_today img {
+  margin-left: 660px;
+  width: 662px;
+  height: 662px;
+}
+
+.process {
+  height: 849px;
+  margin-top: 240px;
+}
+
+.process_head {
+  margin-left: 110px;
+  display: flex;
+}
+
+.process_head h1 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  color: #181a3f;
+  width: 528px;
+  height: 116px;
+}
+
+.process_head p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #555671;
+  width: 432px;
+  height: 91px;
+  margin: 34px 0 0 660px;
+}
+
+.join_frame {
+  display: flex;
+  height: 275px;
+  margin: 80px 0 0 110px;
+}
+
+.project_frame {
+  height: 275px;
+  width: 342px;
+  margin-right: 300px;
+}
+
+.project_idea img {
+  width: 44px;
+  height: 84px;
+}
+
+.h2_frame {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  color: #181a3f;
+}
+
+.h2_frame b {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  color: #ff7549;
+}
+
+.p_frame {
+  width: 333px;
+  height: 121px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555671;
+}
+
+.join_btn {
+  margin: 88px 0 0 650px;
+}
+
+.about_btn {
+  background: #ffffff;
+  color: #181a3f;
+  border: 2px solid #181a3f;
+  width: 338px;
+  height: 39px;
+  font-family: "Urbanist";
+  font-size: 24px;
+}
+.about_btn:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.contact_btn2 {
+  background: #ff7549;
+  color: #ffffff;
+  border: 0;
+  width: 255px;
+  height: 41px;
+  font-family: "Urbanist";
+  font-size: 24px;
+  margin-right: 28px;
+}
+
+.contact_btn2:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.articles {
+  height: 1059px;
+  width: 100%;
+  margin-top: 640px;
+}
+
+.articles_head h1 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  width: 500px;
+  height: 58px;
+}
+
+.articles_head button {
+  background: #ffffff;
+  color: #181a3f;
+  border: 2px solid #181a3f;
+  width: 352px;
+  height: 40px;
+  font-family: "Urbanist";
+  font-size: 24px;
+  margin: 42px 0 0 828px;
+  color: #181a3f;
+}
+
+.articles_head {
+  display: flex;
+  margin-left: 110px;
+}
+
+.join_articles {
+  display: flex;
+  width: 1680px;
+  margin: 80px 0 0 110px;
+  justify-content: space-between;
+}
+
+.marketing {
+  width: 388px;
+  height: 648px;
+  margin-bottom: 241px;
+}
+
+.marketing h3 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #555671;
+  width: 100%;
+}
+
+.marketing h2 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  color: #181a3f;
+  width: 100%;
+  height: 118px;
+}
+
+.marketing p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #555671;
+  width: 318px;
+}
+
+.work {
+  height: 506px;
+  background-color: #f0efec;
+  display: flex;
+}
+
+.work h1 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 74px;
+  color: #181a3f;
+  width: 375px;
+  height: 148px;
+  margin: 182px 0 0 110px;
+}
+
+.contact_phone {
+  width: 405px;
+  height: 146px;
+  margin: 182px 0 0 904px;
+}
+
+.contact_phone p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 49px;
+  color: #181a3f;
+}
+
+.contact_phone b {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 49px;
+  color: #ff7549;
+}
+
+.footer {
+  height: 507px;
+  margin-top: 180px;
+}
+
+.join_header {
+  display: flex;
+  margin-left: 110px;
+}
+
+.logo_contact {
+  width: 282px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.logo_contact p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: #181a3f;
+}
+
+.logo_contact b {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: #ff7549;
+}
+
+.pages {
+  width: 173px;
+  margin-left: 550px;
+}
+
+.pages ul {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #181a3f;
+  margin-bottom: 45px;
+}
+
+.pages ul li {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #555671;
+  list-style-type: none;
+  margin-top: 31px;
+}
+
+.packages {
+  width: 250px;
+  height: 200px;
+  margin: 40.5px 0 0 100px;
+}
+.packages ul li {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #555671;
+  list-style-type: none;
+  margin-top: 31px;
+}
+
+.utility_pages {
+  width: 214px;
+  height: 347px;
+  margin-left: 91px;
+}
+
+.utility_pages ul {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #181a3f;
+  margin-bottom: 45px;
+}
+
+.utility_pages ul li {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #555671;
+  list-style-type: none;
+  margin-top: 31px;
+}
+
+.info_foot {
+  height: 99px;
+ 
+  background-color: #f0efec;
+  display: flex;
+}
+
+.info_foot p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555671;
+  margin: 38px 0 0 110px;
+}
+
+.info_foot img {
+  width: 215px;
+  height: 30px;
+  margin: 40px 0 0 850px;
 }
